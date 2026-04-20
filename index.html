@@ -1,238 +1,853 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Infrabyte | Freelance Web Developer for Modern Business Websites
-    </title>
-    <link rel="icon" type="image/png" href="image/Logo.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="navbar">
-      <div class="container">
-        <div class="logo">
-          <img src="image/logo.png" alt="Logo" />
-        </div>
 
-        <div class="menu-toggle" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>Infrabyte | Expert Freelance Web Developer & Digital Marketing Agency</title>
+  <meta name="title" content="Infrabyte | Expert Web Development & SEO Services">
+  <meta name="description" content="Infrabyte crafts premium, high-performance business websites, top-tier SEO strategies, and custom web apps to accelerate your digital growth and conversions.">
+  <meta name="keywords" content="Infrabyte, Roshan Rai, Freelance Web Developer, Best Website Development, SEO Agency, Digital Marketing, Shopify, WordPress, React Apps, India">
+  <meta name="author" content="Roshan Rai - Infrabyte">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://infrabyte.in/">
+  <meta property="og:title" content="Infrabyte | Premium Web Development & Digital Growth">
+  <meta property="og:description" content="Transform your business with expertly crafted modern websites and powerful SEO optimization.">
+  <meta property="og:image" content="image/logo.png">
 
-        <nav class="nav-menu" id="nav-menu">
-          <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="know_me.html">Know Me</a></li>
-            <li class="dropdown">
-              <a href="#" onclick="toggleDropdown(event)"
-                >Services <span class="dropdown-icon">▾</span></a
-              >
-              <ul class="dropdown-menu">
-                <li><a href="Web_Development.html">Web Development</a></li>
-                <li><a href="Web_Designing.html">Web Designing</a></li>
-                <li><a href="Web_Application.html">Web Application</a></li>
-                <li><a href="seo.html">SEO</a></li>
-                <li>
-                  <a href="Wordpress_Development.html">Wordpress Development</a>
-                </li>
-              </ul>
-            </li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li>
-              <a href="Packages.html" class="btn-gradient">Get Started</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <!-- Navbar _End -->
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://infrabyte.in/">
+  <meta property="twitter:title" content="Infrabyte | Premium Web Development & Digital Growth">
+  <meta property="twitter:description" content="Transform your business with expertly crafted modern websites and powerful SEO optimization.">
+  <meta property="twitter:image" content="image/logo.png">
 
-    <!-- Slider-Section -->
+  <link rel="canonical" href="https://infrabyte.in/">
+  
+  <!-- Styles & Icons -->
+  <link rel="icon" type="image/png" href="image/logo.png" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
 
-    <section class="hero-slider">
-      <div class="slider">
-        <img src="image/web-builder.jpg" alt="Slide 1" class="slide active" />
-        <img src="image/Grow-bussines.jpg" alt="Slide 2" class="slide" />
-        <img src="image/Business-online.jpg" alt="Slide 3" class="slide" />
-        <img src="image/webdeveloper.png" alt="Slide 4" class="slide" />
-        <img src="image/webbuilder.jpg" alt="Slide 5" class="slide" />
-        <img src="image/Business-online.jpg" alt="Slide 6" class="slide" />
-      </div>
-      <!-- <div class="overlay">
-        <h1>Welcome to Our Website</h1>
-        <p>Beautiful and Responsive Hero Section with Auto Slider</p>
-      </div> -->
-    </section>
-
-    <!-- Slider-Section-End -->
-
-    <!-- ✅ Counter Section -->
-    <section class="counter-section">
-      <div class="counter-box">
-        <h2 data-count="100">0</h2>
-        <p>Apps Delivered</p>
-      </div>
-      <div class="counter-box">
-        <h2 data-count="50">0</h2>
-        <p>Happy Clients</p>
-      </div>
-      <div class="counter-box">
-        <h2 data-count="5">0</h2>
-        <p>Years Experience</p>
-      </div>
-      <div class="counter-box">
-        <h2 data-count="15">0</h2>
-        <p>Expert Developers</p>
-      </div>
-    </section>
-    <!-- ✅ Counter Section End -->
-
-    <!-- ✅ Development Process Section -->
-    <section class="process-section">
-      <div class="section-heading">
-        <p>DEVELOPMENT PROCESS</p>
-        <h2>Simple steps to transform your idea into reality</h2>
-        <div class="underline"></div>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="image/logo.png" alt="Logo" />
       </div>
 
-      <div class="process-grid">
-        <div class="process-card">
-          <div class="icon">💡</div>
-          <h3>01</h3>
-          <h4>Discovery</h4>
-          <p>Transform your ideas into a solid project strategy.</p>
-        </div>
-        <div class="process-card">
-          <div class="icon">🛠️</div>
-          <h3>02</h3>
-          <h4>Design</h4>
-          <p>Create beautiful and user-friendly interfaces.</p>
-        </div>
-        <div class="process-card">
-          <div class="icon">💻</div>
-          <h3>03</h3>
-          <h4>Development</h4>
-          <p>Build powerful solutions using latest tech.</p>
-        </div>
-        <div class="process-card">
-          <div class="icon">🚀</div>
-          <h3>04</h3>
-          <h4>Launch</h4>
-          <p>Deploy and maintain your perfect solution.</p>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="know_me.html">Know Me</a></li>
+          <li class="dropdown">
+            <a href="#" onclick="toggleDropdown(event)">Services <span class="dropdown-icon">▾</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Web_Development.html">Web Development</a></li>
+              <li><a href="Web_Designing.html">Web Designing</a></li>
+              <li><a href="Web_Application.html">Web Application</a></li>
+              <li><a href="seo.html">SEO</a></li>
+              <li>
+                <a href="Wordpress_Development.html">Wordpress Development</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="Packages.html" class="btn-gradient">Get Started</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar _End -->
+
+  <!-- Slider-Section -->
+  <section class="animated-hero exploration-hero">
+    <div class="hero-animation-bg">
+      <svg class="hero-visual-svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#00c2ff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0085ff;stop-opacity:1" />
+          </linearGradient>
+          <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" style="stop-color:#fff;stop-opacity:0.3" />
+            <stop offset="100%" style="stop-color:#fff;stop-opacity:0" />
+          </radialGradient>
+        </defs>
+
+        <!-- Background Radiant Rays (Kiren) - Centered behind screens -->
+        <g class="bg-rays" transform="translate(650, 400)">
+          <circle cx="0" cy="0" r="1200" fill="url(#sunGlow)" />
+          <!-- Radial Sunburst Lines (32 Lines for a rich look) -->
+          <line x1="0" y1="0" x2="0" y2="-1200" class="kiren-line" stroke="rgba(255,255,255,0.4)" stroke-width="3" />
+          <line x1="0" y1="0" x2="0" y2="1200" class="kiren-line" stroke="rgba(255,255,255,0.4)" stroke-width="3" />
+          <line x1="0" y1="0" x2="-1200" y2="0" class="kiren-line" stroke="rgba(255,255,255,0.4)" stroke-width="3" />
+          <line x1="0" y1="0" x2="1200" y2="0" class="kiren-line" stroke="rgba(255,255,255,0.4)" stroke-width="3" />
+
+          <line x1="0" y1="0" x2="-800" y2="-800" class="kiren-line" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+          <line x1="0" y1="0" x2="800" y2="-800" class="kiren-line" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+          <line x1="0" y1="0" x2="800" y2="800" class="kiren-line" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+          <line x1="0" y1="0" x2="-800" y2="800" class="kiren-line" stroke="rgba(255,255,255,0.3)" stroke-width="2" />
+
+          <line x1="0" y1="0" x2="-400" y2="-1000" class="kiren-line" stroke="rgba(255,255,255,0.2)"
+            stroke-width="1.5" />
+          <line x1="0" y1="0" x2="400" y2="-1000" class="kiren-line" stroke="rgba(255,255,255,0.2)"
+            stroke-width="1.5" />
+          <line x1="0" y1="0" x2="1000" y2="-400" class="kiren-line" stroke="rgba(255,255,255,0.2)"
+            stroke-width="1.5" />
+          <line x1="0" y1="0" x2="1000" y2="400" class="kiren-line" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" />
+        </g>
+
+        <!-- Left Side Gears Cluster (Expanded) -->
+        <g class="left-gears" transform="translate(100, 500)">
+          <g class="gear gear-L-1" transform="translate(50, 50)">
+            <circle r="40" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="12" stroke-dasharray="8 4" />
+            <circle r="15" fill="none" stroke="#fff" stroke-width="2" />
+          </g>
+          <g class="gear gear-L-2" transform="translate(110, 110) scale(0.7)">
+            <circle r="50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="15" stroke-dasharray="10 5" />
+            <circle r="20" fill="none" stroke="#fff" stroke-width="2" />
+          </g>
+          <!-- 🆕 New Gears -->
+          <g class="gear gear-L-3" transform="translate(40, 120) scale(0.5)">
+            <circle r="40" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="10" stroke-dasharray="12 6" />
+          </g>
+          <g class="gear gear-L-4" transform="translate(160, 60) scale(0.6)">
+            <circle r="45" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="12" stroke-dasharray="15 5" />
+          </g>
+          <g class="gear gear-L-5" transform="translate(180, 150) scale(0.4)">
+            <circle r="40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="10" stroke-dasharray="8 8" />
+          </g>
+        </g>
+
+        <!-- Main Building Area (Right Side) -->
+        <g class="construction-site" transform="translate(650, 150)">
+
+          <!-- Monitor -->
+          <g class="monitor-group">
+            <rect x="0" y="50" width="400" height="280" rx="10" fill="#0b1a30" stroke="#fff" stroke-width="4" />
+            <rect x="20" y="70" width="360" height="200" rx="4" fill="#152b4a" />
+            <rect x="180" y="330" width="40" height="60" fill="#fff" opacity="0.8" />
+            <rect x="140" y="380" width="120" height="10" rx="5" fill="#fff" opacity="0.8" />
+            <!-- Design Content inside screen -->
+            <path d="M50,120 Q200,50 350,170" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="5 5" />
+            <circle cx="200" cy="110" r="6" fill="#ff6b6b" />
+          </g>
+
+          <!-- Laptop -->
+          <g class="laptop-group" transform="translate(180, 280) scale(0.8)">
+            <rect x="0" y="0" width="350" height="220" rx="8" fill="#0b1a30" stroke="#fff" stroke-width="3" />
+            <rect x="15" y="15" width="320" height="170" rx="4" fill="#152b4a" />
+            <rect x="-30" y="220" width="410" height="15" rx="10" fill="#fff" />
+          </g>
+
+          <!-- Smartphone -->
+          <g class="phone-group" transform="translate(-100, 320)">
+            <rect x="0" y="0" width="80" height="160" rx="12" fill="#0b1a30" stroke="#fff" stroke-width="4" />
+            <rect x="5" y="15" width="70" height="120" rx="4" fill="#152b4a" />
+            <circle cx="40" cy="145" r="5" fill="#fff" />
+          </g>
+
+          <!-- Crane & Hook -->
+          <g class="crane-group" transform="translate(450, 0)">
+            <rect x="0" y="0" width="10" height="500" fill="#ffcc00" />
+            <rect x="-200" y="50" width="250" height="15" rx="5" fill="#ffcc00" class="crane-arm" />
+            <line x1="-150" y1="65" x2="-150" y2="200" stroke="#333" stroke-width="2" class="crane-cable" />
+            <!-- Code Blocks being picked/dropped (Cycling) -->
+            <g class="code-block tag-seq-1">
+              <rect x="-40" y="0" width="80" height="40" rx="5" fill="#0b1a30" stroke="#fff" />
+              <text x="0" y="25" text-anchor="middle" fill="#fff" font-weight="bold" font-family="monospace"
+                font-size="14">&lt;header&gt;</text>
+            </g>
+            <g class="code-block tag-seq-2">
+              <rect x="-40" y="0" width="80" height="40" rx="5" fill="#0b1a30" stroke="#fff" />
+              <text x="0" y="25" text-anchor="middle" fill="#fff" font-weight="bold" font-family="monospace"
+                font-size="14">&lt;div&gt;</text>
+            </g>
+            <g class="code-block tag-seq-3">
+              <rect x="-40" y="0" width="80" height="40" rx="5" fill="#0b1a30" stroke="#fff" />
+              <text x="0" y="25" text-anchor="middle" fill="#fff" font-weight="bold" font-family="monospace"
+                font-size="14">&lt;span&gt;</text>
+            </g>
+            <g class="code-block tag-seq-4">
+              <rect x="-40" y="0" width="80" height="40" rx="5" fill="#0b1a30" stroke="#fff" />
+              <text x="0" y="25" text-anchor="middle" fill="#fff" font-weight="bold" font-family="monospace"
+                font-size="14">&lt;main&gt;</text>
+            </g>
+          </g>
+
+          <!-- Floating Tags & Tools -->
+          <g class="floating-elements">
+            <!-- Semantic Tags -->
+            <g class="tag-div" transform="translate(50, 80)">
+              <rect width="80" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="40" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;section&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(320, 260)">
+              <rect width="60" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="30" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;nav&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(-120, 150)">
+              <rect width="70" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="35" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;article&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(250, 50)">
+              <rect width="60" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="30" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;span&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(100, 350)">
+              <rect width="50" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="25" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;div&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(400, 120)">
+              <rect width="60" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="30" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;title&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(-80, 50)">
+              <rect width="65" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="32" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;footer&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(450, 300)">
+              <rect width="60" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="30" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;main&gt;</text>
+            </g>
+            <g class="tag-div" transform="translate(10, 420)">
+              <rect width="60" height="25" rx="5" fill="rgba(255,255,255,0.1)" stroke="#fff" />
+              <text x="30" y="17" text-anchor="middle" fill="#fff" font-size="10">&lt;aside&gt;</text>
+            </g>
+
+            <g class="tool-pen" transform="translate(150, -50)">
+              <path d="M0,40 L10,0 L20,40 Z" fill="#ff6b6b" />
+              <rect x="8" y="40" width="4" height="20" fill="#fff" />
+            </g>
+            <rect x="-50" y="200" width="10" height="150" fill="#ffcc00" opacity="0.5" />
+            <rect x="-10" y="200" width="10" height="150" fill="#ffcc00" opacity="0.5" />
+          </g>
+
+        </g>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text-block">
+        <p class="hero-tag" data-aos="fade-down">DESIGNS THAT APPEAL AND PERFORM</p>
+        <h1 data-aos="zoom-in" data-aos-duration="1500">
+          Website Designing with <br>
+          <span>Roshan Rai</span>
+        </h1>
+        <p class="hero-phone" data-aos="fade-up" data-aos-delay="400">
+          <i class="fa fa-phone"></i> +91 7740037264
+        </p>
+        <p class="hero-motto" data-aos="fade-up" data-aos-delay="500">
+          Kaahe Pareshan ho Rahe ho? <br>
+          <span class="highlight-text">Hum hai Na</span>
+        </p>
+        <div class="hero-actions" data-aos="fade-up" data-aos-delay="600">
+          <a href="Packages.html" class="btn-main">Get Started <i class="fa fa-arrow-right"></i></a>
+          <a href="Portfolio.html" class="btn-secondary">View My Work</a>
         </div>
       </div>
-    </section>
-    <!-- ✅ Development Process Section End -->
+    </div>
+  </section>
 
-    <!-- ✅ Industry Expertise Section -->
-    <section class="industry-section">
-      <h3 class="section-title">INDUSTRY EXPERTISE</h3>
-      <p class="section-subtitle">
-        We build apps across various industry verticals
-      </p>
+  <!-- Slider-Section-End -->
 
-      <div class="industry-grid">
-        <div class="industry-card">
-          <i class="fa fa-shopping-cart icon"></i>
-          <h4>E-Commerce</h4>
-          <p>Online shopping apps with secure payment integration</p>
-        </div>
-        <div class="industry-card">
-          <i class="fa fa-heartbeat icon" style="color: #e63946"></i>
-          <h4>Healthcare</h4>
-          <p>Telemedicine and health monitoring applications</p>
-        </div>
-        <div class="industry-card">
-          <i class="fa fa-graduation-cap icon" style="color: #00b4d8"></i>
-          <h4>Education</h4>
-          <p>Interactive learning and educational platforms</p>
-        </div>
-        <div class="industry-card">
-          <i class="fa fa-building icon" style="color: #00b4a8"></i>
-          <h4>Real Estate</h4>
-          <p>Interactive property Listing platform</p>
-        </div>
-        <div class="industry-card">
-          <i class="fa fa-briefcase icon" style="color: #333"></i>
-          <h4>Business Website</h4>
-          <p>Platforms to list your business details</p>
-        </div>
-        <div class="industry-card">
-          <i class="fa fa-plane icon" style="color: #0077ff"></i>
-          <h4>Tourism</h4>
-          <p>Interactive platforms for your tourism business</p>
+  <!-- ✅ Our Services Section (Animated Multi-Hand Tech Guru) -->
+  <section class="our-services-section">
+    <div class="services-container">
+
+      <!-- Left List -->
+      <div class="services-list-container" data-aos="fade-right">
+        <h2 class="services-title">Our <span>Services</span></h2>
+        <ul class="custom-service-list">
+          <li><i class="fa fa-check-square-o"></i> Website Designing And Redesigning</li>
+          <li class="highlight-blue"><i class="fa fa-check-square-o"></i> Ecommerce Solution</li>
+          <li><i class="fa fa-check-square-o"></i> Graphic Designing</li>
+          <li class="highlight-blue"><i class="fa fa-check-square-o"></i> Website Development</li>
+          <li class="highlight-blue"><i class="fa fa-check-square-o"></i> Portal Development</li>
+          <li><i class="fa fa-check-square-o"></i> Digital Marketing</li>
+          <li><i class="fa fa-check-square-o"></i> SEO Promotion</li>
+          <li><i class="fa fa-check-square-o"></i> Web Hosting</li>
+          <li><i class="fa fa-check-square-o"></i> Domain Registration</li>
+        </ul>
+      </div>
+
+      <!-- Right Graphic -->
+      <div class="services-graphic-container" data-aos="fade-left">
+        <!-- Premium Gradient Guru Graphic -->
+        <div class="services-graphic-container" data-aos="fade-left">
+          <div class="guru-svg-wrapper">
+            <svg viewBox="0 0 500 450" class="floating-guru">
+              
+              <!-- 🎨 High-End Gradients & Filters -->
+              <defs>
+                <linearGradient id="suitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#00628B" />
+                  <stop offset="100%" stop-color="#003D59" />
+                </linearGradient>
+                <linearGradient id="lapelGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#007CA8" />
+                  <stop offset="100%" stop-color="#005A7F" />
+                </linearGradient>
+                <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#FCE1C2" />
+                  <stop offset="100%" stop-color="#EAA672" />
+                </linearGradient>
+                <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#ffffff" />
+                  <stop offset="100%" stop-color="#dcdcdc" />
+                </linearGradient>
+                <filter id="premiumShadow" x="-20%" y="-20%" width="140%" height="140%">
+                  <feDropShadow dx="3" dy="10" stdDeviation="6" flood-color="#000000" flood-opacity="0.15" />
+                </filter>
+              </defs>
+
+              <!-- ☁️ Clouds (With Shadow & Gradient for 3D depth) -->
+              <g class="clouds" filter="url(#premiumShadow)">
+                <ellipse cx="200" cy="400" rx="80" ry="40" fill="url(#cloudGrad)" />
+                <ellipse cx="300" cy="400" rx="80" ry="40" fill="url(#cloudGrad)" />
+                <path d="M120 400 Q200 450 280 400 Z" fill="url(#cloudGrad)" />
+                <path d="M220 400 Q300 450 380 400 Z" fill="url(#cloudGrad)" />
+              </g>
+
+              <!-- 🧑‍💼 Guru Body & Head (Base - Always Visible) -->
+              <g class="guru-base" filter="url(#premiumShadow)">
+                <!-- Suit Base -->
+                <path d="M190 200 L250 260 L310 200 L340 350 L160 350 Z" fill="url(#suitGrad)" />
+                <!-- White Shirt -->
+                <polygon points="220,180 280,180 250,230" fill="#f8f9fa" />
+                <!-- Premium Tie -->
+                <polygon points="245,180 255,180 250,260" fill="#F29505" />
+                <!-- Suit Lapels -->
+                <polygon points="190,200 230,230 250,280 240,350 160,350" fill="url(#lapelGrad)" />
+                <polygon points="310,200 270,230 250,280 260,350 340,350" fill="url(#lapelGrad)" />
+                
+                <!-- 💪 Bottom Arms (Always Visible) -->
+                <g class="arms-bottom">
+                  <path d="M170 280 L100 320 L70 300" fill="none" stroke="url(#lapelGrad)" stroke-width="25" stroke-linejoin="round" />
+                  <path d="M330 280 L400 320 L430 300" fill="none" stroke="url(#suitGrad)" stroke-width="25" stroke-linejoin="round" />
+                  <!-- Hands -->
+                  <polygon points="70,290 85,310 40,310 30,290" fill="url(#skinGrad)" />
+                  <polygon points="430,290 415,310 460,310 470,290" fill="url(#skinGrad)" />
+                </g>
+
+                <!-- Head/Neck -->
+                <rect x="235" y="150" width="30" height="40" fill="url(#skinGrad)" />
+                <path d="M220 150 Q250 180 280 150 L280 100 Q250 70 220 100 Z" fill="url(#skinGrad)" />
+                <!-- Sleek Hair -->
+                <path d="M215 110 Q250 60 285 110 Q285 80 250 80 Q215 80 215 110 Z" fill="#2c3e50" />
+                <path d="M215 110 C215 90 285 90 285 110 L280 90 C250 70 220 70 220 90 Z" fill="#1a252f" />
+                <!-- Elegant Glasses -->
+                <rect x="225" y="115" width="22" height="16" rx="4" fill="none" stroke="#2c3e50" stroke-width="3" />
+                <rect x="253" y="115" width="22" height="16" rx="4" fill="none" stroke="#2c3e50" stroke-width="3" />
+                <line x1="247" y1="123" x2="253" y2="123" stroke="#2c3e50" stroke-width="3" />
+              </g>
+
+              <!-- ✨ MAGIC GROUP (Appears after 2 seconds) -->
+              <g class="magic-appear">
+                
+                <!-- 💪 Middle Arms & Icons -->
+                <g class="arms-mid" filter="url(#premiumShadow)">
+                  <path d="M180 250 L100 230 L80 200" fill="none" stroke="url(#lapelGrad)" stroke-width="22" stroke-linejoin="round" />
+                  <polygon points="85,190 75,210 50,200 60,180" fill="url(#skinGrad)" />
+                  
+                  <path d="M320 250 L400 230 L420 200" fill="none" stroke="url(#suitGrad)" stroke-width="22" stroke-linejoin="round" />
+                  <polygon points="415,190 425,210 450,200 440,180" fill="url(#skinGrad)" />
+                  
+                  <!-- ⚙️ Precision Gears (Left Mid) -->
+                  <g transform="translate(45, 185) scale(0.8)" class="spin-icon">
+                    <circle cx="15" cy="15" r="10" fill="#007CA8" />
+                    <circle cx="15" cy="15" r="4" fill="#ffffff" />
+                    <circle cx="28" cy="25" r="8" fill="#F29505" />
+                    <circle cx="28" cy="25" r="3" fill="#ffffff" />
+                    <circle cx="15" cy="32" r="6" fill="#003D59" />
+                  </g>
+                  
+                  <!-- 🔍 Sleek Search (Right Mid) -->
+                  <g transform="translate(435, 175) scale(0.9)">
+                    <circle cx="15" cy="15" r="10" fill="#ffffff" stroke="#007CA8" stroke-width="4" />
+                    <line x1="22" y1="22" x2="32" y2="32" stroke="#F29505" stroke-width="6" stroke-linecap="round" />
+                  </g>
+                </g>
+
+                <!-- 💪 Top Arms & Icons -->
+                <g class="arms-top" filter="url(#premiumShadow)">
+                  <path d="M190 220 L120 150 L100 120" fill="none" stroke="url(#lapelGrad)" stroke-width="20" stroke-linejoin="round" />
+                  <polygon points="110,110 90,130 80,100 100,90" fill="url(#skinGrad)" />
+                  
+                  <path d="M310 220 L380 150 L400 120" fill="none" stroke="url(#suitGrad)" stroke-width="20" stroke-linejoin="round" />
+                  <polygon points="390,110 410,130 420,100 400,90" fill="url(#skinGrad)" />
+                  
+                  <!-- 📢 Glossy Megaphone (Left Top) -->
+                  <g transform="translate(50, 60)">
+                    <polygon points="35,15 10,25 10,50 35,60" fill="url(#lapelGrad)" />
+                    <line x1="15" y1="50" x2="25" y2="70" stroke="#003D59" stroke-width="6" stroke-linecap="round" />
+                    <polygon points="35,10 45,7 45,68 35,65" fill="#f8f9fa" />
+                    <polygon points="45,7 50,5 50,70 45,68" fill="#F29505" />
+                  </g>
+                  
+                  <!-- ✉️ Crisp Mail (Right Top) -->
+                  <g transform="translate(370, 70)">
+                    <rect x="0" y="10" width="45" height="30" rx="3" fill="#ffffff" stroke="url(#lapelGrad)" stroke-width="2"/>
+                    <polygon points="0,10 22,25 45,10" fill="#f8f9fa" />
+                    <path d="M0 10 L22 25 L45 10" fill="none" stroke="url(#lapelGrad)" stroke-width="2" />
+                    <circle cx="22" cy="20" r="4" fill="#F29505" />
+                  </g>
+                </g>
+
+                <!-- 👥 Connected People Nodes (Top Far Left) -->
+                <g transform="translate(150, 40) scale(0.7)">
+                  <circle cx="20" cy="10" r="6" fill="#007CA8" />
+                  <circle cx="10" cy="25" r="6" fill="#F29505" />
+                  <circle cx="30" cy="25" r="6" fill="#003D59" />
+                  <line x1="15" y1="18" x2="25" y2="18" stroke="#007CA8" stroke-width="2" />
+                  <rect x="15" y="10" width="10" height="5" fill="#007CA8" />
+                </g>
+              </g>
+
+            </svg>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- ✅ Industry Expertise Section End -->
 
-    <!-- Footer -->
-    <footer class="main-footer">
-      <div class="footer-container">
-        <div class="footer-box logo-box">
-          <img src="image/logo.png" alt="Web_Designing" class="footer-logo" />
+    </div>
+  </section>
+
+  <!-- ✅ Counter Section -->
+  <section class="counter-section">
+    <div class="counter-box">
+      <h2 data-count="100">0</h2>
+      <p>Apps Delivered</p>
+    </div>
+    <div class="counter-box">
+      <h2 data-count="50">0</h2>
+      <p>Happy Clients</p>
+    </div>
+    <div class="counter-box">
+      <h2 data-count="5">0</h2>
+      <p>Years Experience</p>
+    </div>
+    <div class="counter-box">
+      <h2 data-count="15">0</h2>
+      <p>Expert Developers</p>
+    </div>
+  </section>
+  <!-- ✅ Counter Section End -->
+
+  <!-- ✅ Development Process Section -->
+  <section class="process-section">
+    <div class="section-heading">
+      <p>CRAFTING DIGITAL SUCCESS WITH ROSHAN RAI</p>
+      <h2 class="zoom-pulse">Kaahe Pareshan ho Rahe ho ? Hum hai Na</h2>
+      <div class="underline"></div>
+    </div>
+    <div class="process-container" style="position: relative; z-index: 20;">
+      <div class="process-grid-modern">
+        <!-- Step 1: Blue - Website Designing -->
+        <div class="process-card-modern ib-blue">
+          <div class="card-tag"><span>01</span></div>
+          <div class="card-content">
+            <h4>Website Designing</h4>
+            <p>Stunning, pixel-perfect designs that don't just look good—they convert. We craft unique digital
+              identities that leave a lasting impression on your visitors.</p>
+          </div>
+        </div>
+        <!-- Step 2: Pink - Website Development -->
+        <div class="process-card-modern ib-pink">
+          <div class="card-tag"><span>02</span></div>
+          <div class="card-content">
+            <h4>Website Development</h4>
+            <p>Blazing-fast, future-ready websites built with precision. We turn complex ideas into high-performance
+              digital solutions that scale with your business.</p>
+          </div>
+        </div>
+        <!-- Step 3: Orange - SEO -->
+        <div class="process-card-modern ib-orange">
+          <div class="card-tag"><span>03</span></div>
+          <div class="card-content">
+            <h4>SEO</h4>
+            <p>Dominate search results and capture high-quality leads. Our data-driven strategies ensure your brand
+              stays visible, relevant, and ahead of the competition.</p>
+          </div>
+        </div>
+        <!-- Step 4: Teal - Digital Marketing -->
+        <div class="process-card-modern ib-teal">
+          <div class="card-tag"><span>04</span></div>
+          <div class="card-content">
+            <h4>Digital Marketing</h4>
+            <p>Skyrocket your brand's reach and engagement. We help you connect with the right audience at the perfect
+              time to maximize your online growth and ROI.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ✅ Development Process Section End -->
+
+  <!-- ✅ Success Stories (Testimonials) Section -->
+  <section class="testimonials-modern-section">
+    <div class="testimonials-wrapper">
+      <!-- Left Branding -->
+      <div class="testimonials-branding">
+        <div class="branding-content">
+          <div class="art-splash">
+            <!-- Using a more professional SVG icon for Success Stories -->
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+              <path fill="#FF6B6B"
+                d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.6,90,-16.3,88.5,-0.9C87,14.6,81.4,29.2,73,42.4C64.6,55.6,53.4,67.3,40.1,74.5C26.8,81.7,11.4,84.4,-3.1,89.7C-17.6,95,-31.1,102.9,-43.3,100.1C-55.5,97.3,-66.4,83.9,-74.6,71.3C-82.8,58.7,-88.3,47.1,-91.1,34.8C-93.9,22.5,-94.1,9.6,-91.3,-2.8C-88.5,-15.2,-82.7,-27.1,-74.9,-37.8C-67.1,-48.5,-57.3,-58.1,-45.8,-66.6C-34.3,-75.1,-21.2,-82.5,-3.9,-75.7C13.4,-68.9,26.8,-76.4,44.7,-76.4Z"
+                transform="translate(100 100)" />
+              <text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="white" font-family="Outfit" font-weight="800"
+                font-size="28">SUCCESS</text>
+            </svg>
+          </div>
+          <h2 class="stories-main-title">Our Success <br><span>Stories</span></h2>
+        </div>
+      </div>
+
+      <!-- Right Slider -->
+      <div class="testimonials-carousel" id="testimonial-carousel">
+        <div class="quotes-icon">“</div>
+        <div class="testimonial-slides-wrapper">
+          <!-- Slide 1 -->
+          <div class="t-slide active">
+            <p>"Your service is extremely fast! Roshan guided me through every technical detail. As someone who didn't
+              know much, his guidance was invaluable for my business growth."</p>
+            <div class="client-info">
+              <span class="c-name">Vikram Sharma</span>
+              <span class="c-tag">KM Chemicals</span>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="t-slide">
+            <p>"I was worried about building a website, but Roshan made it so simple. He explained everything in Hindi
+              and guided me perfectly. Highly recommended freelancer!"</p>
+            <div class="client-info">
+              <span class="c-name">Simran Kaur</span>
+              <span class="c-tag">Boutique Owner</span>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="t-slide">
+            <p>"Blazing fast website performance! Infrabyte delivered exactly what we needed. The design is premium and
+              works flawlessly on all mobile devices. 5 stars!"</p>
+            <div class="client-info">
+              <span class="c-name">Rahul Verma</span>
+              <span class="c-tag">Tech Solutions</span>
+            </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="t-slide">
+            <p>"Best professional guidance. Infrabyte really knows what they are doing. Our conversion rate increased
+              significantly after the new redesign."</p>
+            <div class="client-info">
+              <span class="c-name">Anil Kumar</span>
+              <span class="c-tag">Real Estate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-nav">
+          <span class="t-dot active"></span>
+          <span class="t-dot"></span>
+          <span class="t-dot"></span>
+          <span class="t-dot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ✅ Success Stories End -->
+
+  <!-- ✅ Growth Knowledge Hub (FAQ) Section -->
+  <section class="faq-section">
+    <div class="section-heading">
+      <p>KNOWLEDGE HUB</p>
+      <h2>Expert answers to grow your business online</h2>
+      <div class="underline"></div>
+    </div>
+
+    <div class="faq-container">
+      <!-- Q1 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-globe"></i></span>
+            <h4>Why does my business need a professional website?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>In today's digital age, your business is incomplete without a professional website. It serves as your
+            "Digital Identity," providing 24/7 accessibility to customers and building immediate trust in the market.
+          </p>
+        </div>
+      </div>
+
+      <!-- Q2 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-check-circle"></i></span>
+            <h4>What are the primary benefits of having a website?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>A website makes your business look professional and established. It allows you to reach a global audience,
+            sell products online, and expand your operations without the need for an expensive physical office.</p>
+        </div>
+      </div>
+
+      <!-- Q3 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-rocket"></i></span>
+            <h4>How exactly does a website help in growing my business?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>Your website acts as a tireless digital salesperson. It generates new leads, provides essential information
+            to customers, and uses optimized sales funnels to significantly increase your revenue.</p>
+        </div>
+      </div>
+
+      <!-- Q4 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-search"></i></span>
+            <h4>What is SEO and why is it beneficial for my brand?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>Search Engine Optimization (SEO) ensures your website appears at the top of Google search results. The
+            biggest benefit is gaining "Organic Customers" who are actively searching for your products, leading to
+            free, high-quality traffic.</p>
+        </div>
+      </div>
+
+      <!-- Q5 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-bullhorn"></i></span>
+            <h4>How does Digital Marketing contribute to business success?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>Digital Marketing allows for "Targeted Advertising," ensuring your ads are only seen by people likely to
+            buy your products. This prevents budget waste and ensures a higher return on investment (ROI).</p>
+        </div>
+      </div>
+
+      <!-- Q6 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-shopping-cart"></i></span>
+            <h4>Can a website really increase my sales directly?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>Yes! A fast, user-friendly website directly improves conversion rates. When customers can easily navigate
+            your services, they are much more likely to complete a purchase without hesitation.</p>
+        </div>
+      </div>
+
+      <!-- Q7 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-graduation-cap"></i></span>
+            <h4>What if I'm not technical? How can you help me?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>Roshan Rai provides step-by-step guidance to every client. You don't need to know coding or technology; we
+            handle all the technical details and provide simple training so you can manage your site easily.</p>
+        </div>
+      </div>
+
+      <!-- Q8 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-bolt"></i></span>
+            <h4>Why is website loading speed so critical?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>If a website takes longer than 3 seconds to load, 40% of users will leave. High speed keeps users happy,
+            improves their experience, and helps your website rank higher on Google.</p>
+        </div>
+      </div>
+
+      <!-- Q9 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-share-alt"></i></span>
+            <h4>Is a website better than social media for business?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>While social media is important, a website is your own "Digital Property." Social media platforms can
+            change or close, but your website remains under your full control and provides a more professional image.
+          </p>
+        </div>
+      </div>
+
+      <!-- Q10 -->
+      <div class="faq-item">
+        <div class="faq-header" onclick="toggleFaq(this)">
+          <div class="faq-q-text">
+            <span class="faq-icon"><i class="fa fa-line-chart"></i></span>
+            <h4>How can I track if my website is actually bringing results?</h4>
+          </div>
+          <span class="faq-arrow"><i class="fa fa-chevron-down"></i></span>
+        </div>
+        <div class="faq-answer">
+          <p>We set up advanced Analytics for your website. This allows you to track exactly how many visitors arrived,
+            where they came from, and what they purchased, ensuring full transparency in your growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ✅ FAQ Section End -->
+
+  <!-- Footer -->
+  <footer class="infrabyte-footer">
+    <div class="infrabyte-footer-container">
+      <div class="infrabyte-footer-grid">
+        <div class="infrabyte-footer-col infrabyte-footer-brand">
           <p>
             Infrabyte is a passionate team of web designers and developers
             delivering modern, responsive websites tailored to your business
             goals.
           </p>
+          <div class="infrabyte-footer-social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
         </div>
 
-        <div class="footer-box">
-          <h4>Our Company</h4>
-          <ul>
-            <li><a href="index.html">› Home</a></li>
-            <li><a href="know_me.html">› Who We Are</a></li>
-            <li><a href="Web_Designing.html">› Web Design</a></li>
-            <li><a href="contact.html">› Contact Us</a></li>
+        <div class="infrabyte-footer-col">
+          <h4 class="infrabyte-footer-title">Our Company</h4>
+          <ul class="infrabyte-footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="know_me.html">Who We Are</a></li>
+            <li><a href="Web_Designing.html">Web Design</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
-        <div class="footer-box">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="particles.json">› Web Design Packages</a></li>
-            <li>
-              <a href="Web_Development.html">› Web Development Packages</a>
-            </li>
-
-            <li><a href="blog.html">› Blog</a></li>
+        <div class="infrabyte-footer-col">
+          <h4 class="infrabyte-footer-title">Resources</h4>
+          <ul class="infrabyte-footer-links-list">
+            <li><a href="Packages.html">Web Design Packages</a></li>
+            <li><a href="Web_Development.html">Web Development Packages</a></li>
+            <li><a href="blog.html">Blog</a></li>
           </ul>
         </div>
 
-        <div class="footer-box">
-          <h4>Office</h4>
-          <p>
-            Phase 8B, Industrial Area, Sector 74,<br />Sahibzada Ajit Singh
-            Nagar, Punjab 160071
-          </p>
-          <p>+91-77400-37264</p>
-
-          <p>
-            <a href="mailto:rairoshan69883@gmail.com"
-              >rairoshan69883@gmail.com</a
-            >
-          </p>
+        <div class="infrabyte-footer-col">
+          <h4 class="infrabyte-footer-title">Contact Us</h4>
+          <div class="infrabyte-footer-contact-item">
+            <i class="fa fa-map-marker"></i>
+            <span>Phase 8B, Industrial Area, Sector 74, Sahibzada Ajit Singh Nagar, Punjab 160071</span>
+          </div>
+          <div class="infrabyte-footer-contact-item">
+            <i class="fa fa-phone"></i>
+            <span>+91-77400-37264</span>
+          </div>
+          <div class="infrabyte-footer-contact-item">
+            <i class="fa fa-envelope"></i>
+            <a href="mailto:rairoshan69883@gmail.com">rairoshan69883@gmail.com</a>
+          </div>
         </div>
       </div>
-      <div class="footer-bottom">© All Rights Reserved | Infrabyte</div>
-    </footer>
 
-    <!-- Footer End -->
+      <div class="infrabyte-footer-bottom">
+        <div class="infrabyte-footer-copyright">
+          © 2024 Infrabyte. All Rights Reserved.
+        </div>
+        <div class="infrabyte-footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  </body>
+  <!-- Footer End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+
+  <!-- Special script for Testimonials to ensure it for sure works -->
+  <script>
+    function startTestimonials() {
+      const slides = document.querySelectorAll('.t-slide');
+      const dots = document.querySelectorAll('.t-dot');
+      if (!slides.length) return;
+
+      let current = 0;
+      setInterval(() => {
+        // Remove active
+        slides[current].classList.remove('active');
+        if (dots[current]) dots[current].classList.remove('active');
+
+        // Next slide
+        current = (current + 1) % slides.length;
+
+        // Add active
+        slides[current].classList.add('active');
+        if (dots[current]) dots[current].classList.add('active');
+
+        console.log("Slide changed to index:", current);
+      }, 3000);
+
+      // Dot clicks
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          slides[current].classList.remove('active');
+          if (dots[current]) dots[current].classList.remove('active');
+          current = index;
+          slides[current].classList.add('active');
+          if (dots[current]) dots[current].classList.add('active');
+        });
+      });
+    }
+
+    // Force run
+    window.onload = startTestimonials;
+    setTimeout(startTestimonials, 1000); // Fail-safe fallback
+  </script>
+</body>
+
 </html>
